@@ -177,11 +177,11 @@ def plotpairs(images, cams, rows, cols):
         ax[i*2, j].get_yaxis().set_visible(False)
         ax[i*2, j].cla()
         ax[i*2+1, j].cla()
-        ccnt=ccnt+1
+        # print("i={} j= {} ccnt = {} ".format(i,j, ccnt))
         ax[i*2, j].imshow(images[ccnt][0])
         ax[i*2+1, j].imshow(cams[ccnt][0])
+        ccnt=ccnt+1
 
- 
  
 #-----------------------------------------------
 #          Iterate over all data and store results into png images
@@ -207,7 +207,7 @@ for x_, labels in train_loader:
     G_result = G(z_)     
     D_result , CAMfake= D(G_result)
     plt.figure(3)
-    plotpairs(x_.data.cpu(), CAMfake.data.cpu(), 5, 5)
+    plotpairs(G_result.data.cpu(), CAMfake.data.cpu(), 5, 5)
     plt.savefig('FAKE_D_cams.png') 
     plt.close()
 
