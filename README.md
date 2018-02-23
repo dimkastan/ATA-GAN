@@ -18,8 +18,6 @@ Short Description
 Below, you can see some generated (Left) as well as some real (genuine) images (Right): <br />
 
 
-![Alt text](gitimages/GeneratedImages_git.png "Generated Images) 
-<br />
-
-
-![Alt text](gitimages/RealImages_git.png "Real Images")
+Generated Images           |  Real Images
+:-------------------------:|:-------------------------:
+![Screenshot](gitimages/GeneratedImages_git.png "Generated Images) |  ![Screenshot](gitimages/RealImages_git.png "Real Images")
