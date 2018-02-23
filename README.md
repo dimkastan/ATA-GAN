@@ -20,4 +20,4 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
 
 Generated Images           |  Real Images
 :-------------------------:|:-------------------------:
-![Screenshot](gitimages/GeneratedImages_git.png "Generated Images) |  ![Screenshot](gitimages/RealImages_git.png "Real Images")
+![Screenshot](https://github.com/dimkastan/ATA-GAN/blob/master/gitimages/GeneratedImages_git.png "Generated Images) |  ![Screenshot](gitimages/RealImages_git.png "Real Images")
