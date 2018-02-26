@@ -40,10 +40,18 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
 
 Here we provide the steps required in order to evaluate our discriminator in HEp-2 cell validation images as well as to compare the ATA-GAN discriminator with a regular discriminator trained without Teacher-Attention loss. <br/>
 First, you need to download the data from <a href="https://www.dropbox.com/s/1mjnpwqfrk0au4b/ICPR2014_demoImages.zip?dl=0">here </a> <br />
-After download, extract the data in ATA-GAN folder (where the python code is).
+After download, extract the data in ATA-GAN folder (where the python code is). This will create the following filepath `WithoutMasks/TrainVal/val` where in val folder there will be six folders corresponding to the six categories.
 <br />
-Then you will need the pretrained models. ATA-GAN models are available <a href="https://www.dropbox.com/s/ldn821j0kfdo7jj/ATAGAN_models.zip?dl=0"> here </a>. Regular GAN models are available <a href="https://www.dropbox.com/s/9o64m6d1jsk4tp6/PlainGAN_models.zip?dl=0"> </a>
+Then you will need the pretrained models. ATA-GAN models are available <a href="https://www.dropbox.com/s/ldn821j0kfdo7jj/ATAGAN_models.zip?dl=0"> here </a>. Regular GAN models are available <a href="https://www.dropbox.com/s/9o64m6d1jsk4tp6/PlainGAN_models.zip?dl=0"> here</a>
 <br />
+# Run the demo- Visualize discriminator Soft-CAM
+- Prerequisities: Anaconda Python 3.6 and PyTorch installed using the instructions from the original site.
+- First select the GAN model (ATA-GAN or Plain-GAN). Copy `*.pt` files into the folder where is located the `DemoATAGan.py`.
+-  Call the demo
+
+    python DemoATAGan.py
+    
+    
 
 
 
