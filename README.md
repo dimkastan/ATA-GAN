@@ -10,7 +10,7 @@ captured with Indirect Imunofluoresence (IIF) and study the ability of the discr
 domain and the target distribution efficiently, the discriminator network is not able to detect the regions of interest. Secondly, we present a novel attention transfer mechanism which allows us to enforce the discriminator to put emphasis on the regions of interest via transfer learning. Thirdly, we show that this can generate more realistic images, as the discriminator learns to put emphasis on the area of interest. Fourthly, the proposed method allows one to generate both images as well as attention maps which can be useful for data annotation e.g in object detection.
 
 <br />
-Demo code will be available [soon](.)
+Demo code will be available soon.
 
 
 ## Some Results:
@@ -33,3 +33,18 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
 <img src="gitimages/FAKE_D_cams.png" width="425"/> <img src="gitimages/REAL_D_cams.png" width="425"/> 
 
 <br />
+
+
+
+## Try our models and compare with a regular discriminator:
+
+Here we provide the steps required in order to evaluate our discriminator in HEp-2 cell validation images as well as to compare the ATA-GAN discriminator with a regular discriminator trained without Teacher-Attention loss. <br/>
+First, you need to download the data from <a href="https://www.dropbox.com/s/1mjnpwqfrk0au4b/ICPR2014_demoImages.zip?dl=0">here </a> <br />
+After download, extract the data in ATA-GAN folder (where the python code is).
+<br />
+Then you will need the pretrained models. ATA-GAN models are available <a href="https://www.dropbox.com/s/ldn821j0kfdo7jj/ATAGAN_models.zip?dl=0"> here </a>. Regular GAN models are available <a href="https://www.dropbox.com/s/9o64m6d1jsk4tp6/PlainGAN_models.zip?dl=0"> </a>
+<br />
+
+
+
+
