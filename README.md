@@ -20,7 +20,7 @@ Dimmitris Kastaniotis, Ioanna Ntinou, Dimitris Tsourounis, George Economou and S
 
 
 
-### Generated versus Real images.
+## Generated versus Real images.
 
 Below, you can see some generated (Left) as well as some real (genuine) images (Right): <br />
 
@@ -29,7 +29,7 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
 <br />
  
  
- ### Discriminator Attention Maps.
+ ## Discriminator Attention Maps.
  
  Below, you can see some generated (Left) as well as some real (genuine) images (Right) together with the Soft-Class Activation Maps: <br />
  
@@ -51,7 +51,7 @@ Then you will need the pretrained models. ATA-GAN models are available <a href="
 # Run the demo- Visualize discriminator Soft-CAM
 - Prerequisities: Anaconda Python 3.6 and PyTorch installed using the instructions from the original site.
 - First select the GAN model (ATA-GAN or Plain-GAN). Copy `*.pt` files into the folder where is located the `DemoATAGan.py`.
--  Call the demo
+- Call the demo
 
 
      python DemoATAGan.py
