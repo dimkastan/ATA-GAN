@@ -11,8 +11,10 @@ captured with Indirect Imunofluoresence (IIF) and study the ability of the discr
 domain and the target distribution efficiently, the discriminator network is not able to detect the regions of interest. Secondly, we present a novel attention transfer mechanism which allows us to enforce the discriminator to put emphasis on the regions of interest via transfer learning. Thirdly, we show that this can generate more realistic images, as the discriminator learns to put emphasis on the area of interest. Fourthly, the proposed method allows one to generate both images as well as attention maps which can be useful for data annotation e.g in object detection.
 
 <br />
-Demo code will be available soon.
+<br />
 
+Cite with the following: 
+Dimmitris Kastaniotis, Ioanna Ntinou, Dimitris Tsourounis, George Economou and Spiros Fotopoulos, Attention-Aware Generative Adversarial Nerworks (ATA-GANs), arXiv:1802.09070v1 [cs.CV]
 
 ## Some Results:
 
@@ -36,6 +38,7 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
 <br />
 
 
+## Demo Code
 
 ## Try our models and compare with a regular discriminator:
 
@@ -50,7 +53,8 @@ Then you will need the pretrained models. ATA-GAN models are available <a href="
 - First select the GAN model (ATA-GAN or Plain-GAN). Copy `*.pt` files into the folder where is located the `DemoATAGan.py`.
 -  Call the demo
 
-    python DemoATAGan.py
+
+     python DemoATAGan.py
     
     
 
