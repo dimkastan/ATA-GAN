@@ -14,7 +14,7 @@ domain and the target distribution efficiently, the discriminator network is not
 <br />
 
 Citation: <br/>
-Dimmitris Kastaniotis, Ioanna Ntinou, Dimitris Tsourounis, George Economou and Spiros Fotopoulos, Attention-Aware Generative Adversarial Nerworks (ATA-GANs), arXiv:1802.09070v1 [cs.CV]
+<a href="www.upcv.upatras.gr/personal/kastaniotis">Dimmitris Kastaniotis</a>, Ioanna Ntinou, Dimitris Tsourounis, <a href="www.upcv.upatras.gr/personal/economou">George Economou and <a href="www.upcv.upatras.gr/personal/fotopoulos">Spiros Fotopoulos</a>, Attention-Aware Generative Adversarial Nerworks (ATA-GANs), arXiv:1802.09070v1 [cs.CV]
 
 ## Some Results:
 
