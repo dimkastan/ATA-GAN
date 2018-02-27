@@ -1,10 +1,10 @@
 # ATA-GAN
 
 
-Demo code for our paper  on <a href=""> Attention-Aware Generative Adversarial networks (ATA-GANs) </a>
+Demo code for our paper  on <a href="http://arxiv.org/abs/1802.09070"> Attention-Aware Generative Adversarial networks (ATA-GANs)- ArXiv- Sumbitted to  </a>: <a href="http://ivmsp2018.org/"> IVMSP 2018</a>
 <br />
 
-Abstract: A new family of generative models named as Generative Adversarial Networks (GANs) has been proposed. Using two neural networks (one that generates samples and one that evaluates them as real or fake), these networks are able
+<strong> Abstract: </strong> A new family of generative models named as Generative Adversarial Networks (GANs) has been proposed. Using two neural networks (one that generates samples and one that evaluates them as real or fake), these networks are able
 to learn a mapping between an input domain and the actual data. However, the ability of the generator to locate the regions
 of interest has not been studied yet. In this context, here, we are using GANs in order to generate images from HEp-2 cells
 captured with Indirect Imunofluoresence (IIF) and study the ability of the discriminator to perform a weekly localization of the cell. Our contribution is four-fold. First, we demonstrate that whilst GANs can learn the mapping between the input
