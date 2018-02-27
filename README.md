@@ -24,7 +24,7 @@ Dimmitris Kastaniotis, Ioanna Ntinou, Dimitris Tsourounis, George Economou and S
 
 Below, you can see some generated (Left) as well as some real (genuine) images (Right): <br />
 
-<img src="gitimages/GeneratedImages_git.png" width="220"/> <img src="gitimages/RealImages_git.png" width="220"/> 
+<img src="gitimages/GeneratedImages_git.png" width="50%"/> <img src="gitimages/RealImages_git.png" width="50%"/> 
 
 <br />
  
@@ -33,7 +33,7 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
  
  Below, you can see some generated (Left) as well as some real (genuine) images (Right) together with the Soft-Class Activation Maps: <br />
  
-<img src="gitimages/FAKE_D_cams.png" width="220"/> <img src="gitimages/REAL_D_cams.png" width="220"/> 
+<img src="gitimages/FAKE_D_cams.png" width="50%"/> <img src="gitimages/REAL_D_cams.png" width="50%"/> 
 
 <br />
 
