@@ -33,7 +33,7 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
  
  Below, you can see some generated (Left) as well as some real (genuine) images (Right) together with the Soft-Class Activation Maps: <br />
  
-<img src="gitimages/FAKE_D_cams.png" width="30%"/> <img src="gitimages/REAL_D_cams.png" width="30%"/> 
+<img src="gitimages/FAKE_D_cams.png" width="40%"/> <img src="gitimages/REAL_D_cams.png" width="40%"/> 
 
 <br />
 
