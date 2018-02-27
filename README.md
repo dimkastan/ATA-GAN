@@ -38,7 +38,7 @@ Below, you can see some generated (Left) as well as some real (genuine) images (
 <br />
 
 
-## Demo Code
+## Demo Code (PyTorch)
 
 ## Try our models and compare with a regular discriminator:
 
